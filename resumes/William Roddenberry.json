@@ -1,0 +1,63 @@
+{
+  "name": "William Roddenberry",
+  "email": "william.roddenberry104@outlook.com",
+  "phone": "",
+  "location": "Liberty Hill, Texas, United States",
+  "linkedin": "https://www.linkedin.com/in/austin-davis-0a61b53ba/",
+  "website": "",
+
+  "experience": [
+    {
+      "company": "Abridge",
+      "title": "Senior Software Engineer",
+      "location": "New York, New York(hybrid)",
+      "start_date": "Apr 2025",
+      "end_date": "Present"
+    },
+    {
+      "company": "Indeed",
+      "title": "Software Engineering Manager",
+      "location": "New York, New York(remote)",
+      "start_date": "Apr 2022",
+      "end_date": "Apr 2025"
+    },
+    {
+      "company": "Indeed",
+      "title": "Software Engineer",
+      "location": "New York, New York(remote)",
+      "start_date": "Jul 2017",
+      "end_date": "Apr 2022"
+    },
+    {
+      "company": "Indeed.com",
+      "title": "Software Engineering Intern",
+      "location": "Austin, Texas(remote)",
+      "start_date": "Sep 2017",
+      "end_date": "Dec 2020"
+    },
+    
+    {
+      "company": "Just Baguette",
+      "title": "Software Development Intern",
+      "location": "Cambridge, Massachusetts(remote)",
+      "start_date": "Jun 2015",
+      "end_date": "Aug 2015"
+    },
+    {
+      "company": "Massachusetts Institute of Technology",
+      "title": "Undergraduate Researcher",
+      "location": "Cambridge, Massachusetts(remote)",
+      "start_date": "Sep 2014",
+      "end_date": "Aug 2015"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor's degree in Computer Science",
+      "school": "Massachusetts Institute of Technology",
+      "start_year": "2014",
+      "end_year": "2017"
+    }
+  ]
+}
