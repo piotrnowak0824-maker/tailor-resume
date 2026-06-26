@@ -1,5 +1,6 @@
 import chromium from "@sparticuz/chromium";
 import puppeteerCore from "puppeteer-core";
+import puppeteer from "puppeteer";
 import OpenAI from "openai";
 import fs from "fs";
 import path from "path";
@@ -413,12 +414,14 @@ OUTPUT: Return the improved resume as a single JSON object only (no other text, 
     console.log("HTML rendered from template");
 
     // Generate PDF with Puppeteer
-    const browser = await puppeteerCore.launch({
-  args: chromium.args,
-  executablePath: await chromium.executablePath(),
-  headless: true,
-  defaultViewport: chromium.defaultViewport,
-});
+    const browser = await (chromium.executablePath()
+      ? puppeteerCore.launch({
+          args: chromium.args,
+          executablePath: await chromium.executablePath(),
+          headless: true,
+          defaultViewport: chromium.defaultViewport,
+        })
+      : puppeteer.launch({ headless: "new" }));
 
     const page = await browser.newPage();
     await page.setContent(html, { waitUntil: "networkidle0" });
