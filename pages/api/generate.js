@@ -414,9 +414,12 @@ OUTPUT: Return the improved resume as a single JSON object only (no other text, 
 
     // Generate PDF with Puppeteer
     const browser = await puppeteerCore.launch({
-  args: chromium.args,
+  args: await puppeteerCore.defaultArgs({
+    args: chromium.args,
+    headless: "shell",
+  }),
   executablePath: await chromium.executablePath(),
-  headless: true,
+  headless: "shell",
   defaultViewport: chromium.defaultViewport,
 });
 
