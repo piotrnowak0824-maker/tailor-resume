@@ -1,0 +1,48 @@
+{
+  "name": "Gabriel Stanton",
+  "email": "gabe.stanton11@outlook.com",
+  "phone": "+1 (215) 907 7780",
+  "location": "Greater Pittsburgh Region",
+  "linkedin": "linkedin.com/in/gabe-stanton",
+  "website": "",
+
+  "experience": [
+    {
+      "company": "Latitude AI",
+      "title": "Software Engineer",
+      "location": "Pittsburgh, Pennsylvania, United States",
+      "start_date": "Sep 2024",
+      "end_date": "Present"
+    },
+    {
+      "company": "Amazon",
+      "title": "Software Development Engineer II",
+      "location": "Seattle, Washington, United States",
+      "start_date": "Mar 2023",
+      "end_date": "Sep 2024"
+    },
+    {
+      "company": "Amazon",
+      "title": "Software Development Engineer I",
+      "location": "Seattle, Washington, United States",
+      "start_date": "May 2021",
+      "end_date": "Mar 2023"
+    },
+    {
+      "company": "BNY Mellon",
+      "title": "Software Engineer",
+      "location": "Greater Pittsburgh Region",
+      "start_date": "Jun 2018",
+      "end_date": "Mar 2021"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "school": "Penn State University",
+      "start_year": "2014",
+      "end_year": "2018"
+    }
+  ]
+}
