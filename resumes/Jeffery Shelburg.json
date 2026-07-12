@@ -1,0 +1,61 @@
+{
+  "name": "Jeffery Shelburg",
+  "email": "jeff.shelburg801@outlook.com",
+  "phone": "+1 (412) 981-0861",
+  "location": "Wexford, PA (Open to Remote)",
+  "linkedin": "https://www.linkedin.com/in/jshelburg/",
+  "website": "",
+
+  "experience": [
+    {
+      "company": "Uber",
+      "title": "Senior Software Engineer II",
+      "location": "Greater Pittsburgh Area",
+      "start_date": "Nar 2017",
+      "end_date": "Present"
+    },
+    {
+      "company": "Uber",
+      "title": "Senior Software Engineer I",
+      "location": "San Francisco, CA",
+      "start_date": "May 2015",
+      "end_date": "Mar 2017"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer",
+      "location": "Mountain View, CA",
+      "start_date": "Feb 2014",
+      "end_date": "May 2015"
+    },
+    {
+      "company": "Sandia National Laboratories",
+      "title": "Member of Technical Staff - Analytics R&D",
+      "location": "Albuquerque, New Mexico",
+      "start_date": "May 2011",
+      "end_date": "Jan 2014"
+    },
+    {
+      "company": "Sandia National Laboratories",
+      "title": "Technical Intern",
+      "location": "Albuquerque, New Mexico",
+      "start_date": "May 2010",
+      "end_date": "Aug 2010"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Master's Degree of Computer Science",
+      "school": "Missouri University of Science and Technology",
+      "start_year": "",
+      "end_year": ""
+    },
+    {
+      "degree": "Master's Degree of Computer Science",
+      "school": "Missouri University of Science and Technology",
+      "start_year": "",
+      "end_year": ""
+    }
+  ]
+}
